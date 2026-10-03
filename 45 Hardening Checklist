@@ -1,0 +1,47 @@
+I like to call this bare minimum checklist that can keep your server safe and help you carry out proper system Audit.
+
+[ ] 1. Identify OS, version, kernel and architecture
+[ ] 2. Identify server role and required services
+[ ] 3. Establish current security baseline
+[ ] 4. Run vulnerability/security assessment
+[ ] 5. Review installed packages
+[ ] 6. Review running services
+[ ] 7. Review listening ports
+[ ] 8. Review network interfaces and routes
+[ ] 9. Configure host firewall
+[ ] 10. Establish deny-by-default inbound policy
+[ ] 11. Permit only required services/ports
+[ ] 12. Harden SSH
+[ ] 13. Disable unnecessary SSH authentication methods
+[ ] 14. Restrict root remote access
+[ ] 15. Enforce SSH key authentication where appropriate
+[ ] 16. Configure authentication/PAM controls
+[ ] 17. Configure brute-force/account lockout protection
+[ ] 18. Review users and groups
+[ ] 19. Review sudo privileges
+[ ] 20. Review password policy
+[ ] 21. Enable/verify AppArmor or another MAC framework
+[ ] 22. Configure auditd
+[ ] 23. Verify audit events are actually generated
+[ ] 24. Deploy file-integrity monitoring
+[ ] 25. Define AIDE monitoring scope
+[ ] 26. Create trusted AIDE baseline
+[ ] 27. Test AIDE change detection
+[ ] 28. Review SUID/SGID executables
+[ ] 29. Review world-writable files/directories
+[ ] 30. Harden kernel parameters
+[ ] 31. Review kernel lockdown requirements
+[ ] 32. Review systemd service security
+[ ] 33. Disable unnecessary services
+[ ] 34. Review scheduled tasks/cron
+[ ] 35. Review boot configuration
+[ ] 36. Review file ownership and permissions
+[ ] 37. Review logging configuration
+[ ] 38. Review log retention
+[ ] 39. Review security-update strategy
+[ ] 40. Perform vulnerability scanning
+[ ] 41. Perform network/service validation
+[ ] 42. Re-run security assessment
+[ ] 43. Compare before/after results
+[ ] 44. Validate controls behaviorally
+[ ] 45. Record remaining risks and exceptions
